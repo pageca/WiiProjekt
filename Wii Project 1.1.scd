@@ -14,7 +14,7 @@ SynthDef(\gong, {|gate = 0, freqscale = 1, freqoffset = 0, decayscale = 1,attack
 }).add;
 )
 
-//B gedrückt halten, dann werden und loslassen um klang zu erzeugen
+//B gedrückt halten, dann werden und loslassen um klang zu erzeugen und wieder b halten um ihn wieder zu "fangen"
 
 (
 x = Synth(\gong);

@@ -57,7 +57,7 @@ OSCdef(\switch, {|msg|
 	~id.postln;
 	if((msg[1] == 0), {
 		~id = 0;
-		g.sendMsg("/id/" ++ [0,2,3].choose.asString, 1);
+		g.sendMsg("/id/" ++ [0].choose.asString, 1);
 	});
 }, "/wii/button/b");
 
